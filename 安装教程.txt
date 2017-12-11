@@ -1,0 +1,17 @@
+SAE安装教程：
+1、上传sae代码
+2、建立img图片缓存
+3、建立数据库 并导入(里面的3个文件都需要导入)
+4、删除根目录config.php文件，将config_SAE版.php重命名为config.php
+
+
+虚拟主机版安装教程：
+1、上传代码到根目录
+2、建立数据库 并导入(里面的3个文件都需要依次导入：wall.sql、weixin_cj_shady.sql、weixin_weibo_config.sql)
+3、删除根目录config.php文件，将config_虚拟主机版.php重命名为config.php，并修改里面的数据库信息
+
+开启密码：admin
+后台地址/myadmin 帐号：admin；密码：admin
+
+—————————————————
+商业源码网：http://www.zzcodes.net
