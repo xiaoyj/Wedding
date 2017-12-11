@@ -1,4 +1,5 @@
 <?php
+error_reporting(E_ALL ^ E_DEPRECATED);
 /**
  * Created by JetBrains PhpStorm.
  * 通用数据库操作类

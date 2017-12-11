@@ -2,13 +2,13 @@
 @header("Content-type: text/html; charset=utf-8");
  
 /*链接数据库*/
-$dbname = "admin";//数据库的名称
+$dbname = "myadmin";//数据库的名称
 
 /*从环境变量里取出数据库连接需要的参数*/
-$host = "localhost";
+$host = "127.0.0.1";
 $port = 3306;
 $user = "root";//数据库的用户名
-$pwd = "root";//数据库的密码
+$pwd = "Xx930809_2017";//数据库的密码
 
 
 
