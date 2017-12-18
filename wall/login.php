@@ -77,7 +77,7 @@ $(function(){
             </div>
 
             <a class="btn btn-primary btn-lg btn-block" href="javascript:void(0);" id="login-submit">Log in</a>
-            <a class="login-link" href="http://www.weibiaozhi.com/" target="_blank">Powered by:店谱网</a>
+            <a class="login-link" href="http://www.weibiaozhi.com/" target="_blank">Powered by:Shaw</a>
           </div>
         </div>
 </div>
