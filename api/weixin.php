@@ -80,7 +80,7 @@
 		 $state = Web_ROOT.",".$this->getRequest('fromusername').",".$AppID.",".strrev($AppSecret);
 
       $items = array(
-        new NewsResponseItem("欢迎使用{$weixin_name}","点击获取您的信息，进行开场签到\n",Web_ROOT."/files/images/qiandao.jpg","https://open.weixin.qq.com/connect/oauth2/authorize?appid=".$AppID."&redirect_uri=http://www.weibiaozhi.com/weixinapi/getinfo.php&response_type=code&scope=snsapi_userinfo&state=".$state));
+        new NewsResponseItem("欢迎使用{$weixin_name}","点击获取您的信息，进行开场签到\n",Web_ROOT."/files/images/qiandao.jpg"));
 	    Wechat::$noendtail=0;
 		return $items;  
 	} 
